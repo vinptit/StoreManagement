@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\StoreManagement\\StoreManagement\\StoreManagement.csproj": {}
+    "E:\\FOODELI\\FOODELI_FE\\StoreManagement\\StoreManagement.csproj": {}
   },
   "projects": {
-    "E:\\StoreManagement\\StoreManagement\\StoreManagement.csproj": {
+    "E:\\FOODELI\\FOODELI_FE\\StoreManagement\\StoreManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\StoreManagement\\StoreManagement\\StoreManagement.csproj",
+        "projectUniqueName": "E:\\FOODELI\\FOODELI_FE\\StoreManagement\\StoreManagement.csproj",
         "projectName": "StoreManagement",
-        "projectPath": "E:\\StoreManagement\\StoreManagement\\StoreManagement.csproj",
+        "projectPath": "E:\\FOODELI\\FOODELI_FE\\StoreManagement\\StoreManagement.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\StoreManagement\\StoreManagement\\obj\\",
+        "outputPath": "E:\\FOODELI\\FOODELI_FE\\StoreManagement\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +59,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.2, )"
             }
           },
           "imports": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
